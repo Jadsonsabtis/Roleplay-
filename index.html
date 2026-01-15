@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>RolePlay AI - Elite</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        * { font-family: 'Inter', sans-serif; -webkit-tap-highlight-color: transparent; }
+        h1, h2, h3, h4, .font-outfit { font-family: 'Outfit', sans-serif; }
+        body { background-color: #020205; color: #e2e8f0; margin: 0; padding: 0; overflow-x: hidden; -webkit-font-smoothing: antialiased; }
+        
+        .app-bg { background: radial-gradient(circle at top, #0a0a1a, #020205); min-h-screen; }
+        
+        .glass { background: rgba(10, 10, 15, 0.8); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.03); }
+        .glass-card { background: rgba(15, 15, 25, 0.7); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.05); }
+        
+        .gradient-text { background: linear-gradient(135deg, #c084fc, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .btn-primary { background: linear-gradient(135deg, #6366f1, #a855f7); color: white; transition: all 0.2s ease; }
+        .btn-primary:active { transform: scale(0.96); opacity: 0.9; }
+        
+        .chat-user { background: linear-gradient(135deg, #4f46e5, #7c3aed); color: white; }
+        .chat-ai { background: rgba(25, 25, 35, 0.9); border: 1px solid rgba(255,255,255,0.05); color: #f1f5f9; }
+        
+        .action-text { color: #d8b4fe; font-style: italic; opacity: 0.8; font-weight: 300; }
+        
+        .scroll-hide::-webkit-scrollbar { width: 4px; }
+        .scroll-hide::-webkit-scrollbar-track { background: transparent; }
+        .scroll-hide::-webkit-scrollbar-thumb { background: rgba(139, 92, 246, 0.2); border-radius: 10px; }
+        
+        .avatar-glow { box-shadow: 0 0 15px rgba(168, 85, 247, 0.2); border: 1px solid rgba(255,255,255,0.1); }
+        .input-dark { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); color: #fff; outline: none; transition: border-color 0.2s; }
+        .input-dark:focus { border-color: #8b5cf6; background: rgba(255,255,255,0.05); }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "framer-motion": "https://esm.sh/framer-motion@^11.0.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.35.0"
+  }
+}
+</script>
+</head>
+<body class="app-bg">
+    <div id="root"></div>
+</body>
+</html>

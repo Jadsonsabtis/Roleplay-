@@ -1,0 +1,8 @@
+{
+  "name": "RolePlay AI",
+  "description": "Uma plataforma imersiva de chat com personagens IA personalizáveis, com temas musicais e suporte a imagens.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
